@@ -25,7 +25,7 @@ consul_update_helper
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/SaurabhSinghGO/Consul_Update_Helper.git
    cd consul_update_helper
    ```
 
@@ -65,8 +65,4 @@ You can access the API documentation at `http://localhost:5003/docs`.
 - **POST /api/v1/consul/properties**: Set Consul properties.
 - **POST /api/v1/consul/properties/transfer**: Transfer properties from one setup to another.
 - **GET /api/v1/consul/properties/compare**: Compare properties between two setups.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
-
+  
