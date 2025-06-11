@@ -1,0 +1,6 @@
+FastAPI
+uvicorn
+requests
+pydantic
+python-multipart
+flask-cors
