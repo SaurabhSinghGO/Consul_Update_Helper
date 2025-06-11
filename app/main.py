@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routes import get_or_post, transfer, compare
 
-app = FastAPI()
+app = FastAPI(title="Consul Update Helper", docs_url="/consul-update-helper/swagger-ui", redoc_url=None)
 
 app.add_middleware(
     CORSMiddleware,
